@@ -43,7 +43,7 @@ function App() {
           type="text"
           placeholder="หาที่เที่ยวแล้วไปกัน..."
           onChange={textHandler}
-          className=" p-2 border-b-2 w-[50rem] text-center"
+          className=" p-2 border-b-2 w-[50rem] text-center focus:border-b-2 focus:border-blue-500 focus:outline-none"
         />
       </div>
 
@@ -104,7 +104,7 @@ function App() {
                       key={photoIndex}
                       src={photoUrl}
                       alt=""
-                      className="w-[80px] h-[80px] my-5 rounded-lg "
+                      className="w-[80px] h-[80px] my-5 rounded-lg"
                     />
                   ))}
               </div>
